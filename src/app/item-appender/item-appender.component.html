@@ -1,0 +1,7 @@
+<div>
+  <span>Add new item</span>
+  <input #itemName type="text">
+  <button (click)="addItem(itemName.value); itemName.value = ''" >
+    Add
+  </button> 
+</div>

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ItemsProviderService } from './items-provider.service';
+import { Item } from './models/models';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+ 
 }
